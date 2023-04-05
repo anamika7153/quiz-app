@@ -6,7 +6,7 @@ const app = express();
 require("dotenv").config();
 
 app.use(express.json());
-// app.use(cors());
+app.use(cors());
 
 const dbConfig = require("./config/dbConfig");
 
@@ -19,7 +19,7 @@ app.use("/api/users", usersRoute);
 app.use("/api/exams", examsRoute);
 app.use("/api/reports", resportsRoute);
 
-const port = process.env.PORT || 8080;
+const port = process.env.PORT || 5000;
 
 
 
