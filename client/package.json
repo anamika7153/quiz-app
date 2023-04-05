@@ -42,5 +42,5 @@
       "last 1 safari version"
     ]
   },
-  "proxy": "https://quiz-app-backend-bay.vercel.app"
+  "proxy": "https://quiz-app-backend-beta.vercel.app"
 }
