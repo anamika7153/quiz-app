@@ -7,6 +7,26 @@
 ## Login credentials for User
 ### Email Id: ashwani@gmail.com
 ### Password: ashwani
+
+## Installation
+### Clone
+- Clone this repo to your local machine using:
+```shell
+git clone https://github.com/anamika7153/quiz-app.git
+```
+
+- now install npm inside server and client directory.
+
+```shell
+npm install
+```
+- Create `.env` file in the root directory and inside server folder. Enter your Mongo url and jwt secret `.env`
+
+```shell
+MONGO_URL = 'your mongodb url'
+JWT_SECRET= 'your secret characters'
+```
+
 ## Screenshots
 
 - Register
